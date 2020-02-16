@@ -1,0 +1,48 @@
+
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-style: normal;
+  src: url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400.eot');
+  src: url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400.eot?#iefix') format('embedded-opentype'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400.woff2') format('woff2'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400.woff') format('woff'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400.ttf') format('truetype'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400.svg#Quicksand') format('svg');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-style: normal;
+  src: url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700.eot');
+  src: url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700.eot?#iefix') format('embedded-opentype'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700.woff2') format('woff2'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700.woff') format('woff'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700.ttf') format('truetype'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700.svg#Quicksand') format('svg');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-style: italic;
+  src: url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400_italic.eot');
+  src: url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400_italic.eot?#iefix') format('embedded-opentype'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400_italic.woff2') format('woff2'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400_italic.woff') format('woff'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400_italic.ttf') format('truetype'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-400_italic.svg#Quicksand') format('svg');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-style: italic;
+  src: url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700_italic.eot');
+  src: url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700_italic.eot?#iefix') format('embedded-opentype'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700_italic.woff2') format('woff2'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700_italic.woff') format('woff'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700_italic.ttf') format('truetype'),
+       url('//d2wwthy2zmzhx.cloudfront.net/fonts/quicksand-700_italic.svg#Quicksand') format('svg');
+}
