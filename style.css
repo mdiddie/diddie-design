@@ -37,6 +37,7 @@ body {
   header nav a {
     text-decoration: none;
     color: #fff; 
+    font-weight:700;
   }
   
   header nav {
@@ -44,6 +45,7 @@ body {
     display: flex;
    justify-content: space-between;  
   }
+
   
   .icon svg {
     fill: #fff;
@@ -82,7 +84,7 @@ body {
   section.motion-graphics video {
     padding: 20px;
     height: 540px;
-    text-decoration: none;
+    outline: none;
   }
   
   /* Illustration Section */
@@ -185,6 +187,10 @@ body {
   
     div.work p {
       font-size: 16px;
+    }
+
+    div.resumepdf {
+      width:100%;
     }
   }
   
