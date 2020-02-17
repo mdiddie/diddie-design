@@ -203,7 +203,7 @@ body {
       width: 300px;
       margin-right: auto;
       margin-left: auto;
-      padding: 0 10px 0 10px;
+      padding: 15px 10px 0 10px;
        margin-bottom: 3px;
     }
     
@@ -216,9 +216,21 @@ body {
        color: #000;
       font-weight: 200;
     }
+
+    header nav{
+    display: block;
+    text-align: center;
+    padding:15px 0 5px 0;
+  }
+
+  div.resume {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
     
     header nav a {
        color: #000;
+
     }
     
     header p {
