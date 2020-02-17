@@ -241,5 +241,12 @@ body {
     .icon svg {
     fill: #000;
   }
+
+  section.motion-graphics video {
+    width:100%;
+    max-width:500px;
+    height:auto;
+  }
+
   }
   
