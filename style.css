@@ -46,6 +46,11 @@ body {
    justify-content: space-between;  
   }
 
+  div.resumepdf {
+    
+  }
+
+
   
   .icon svg {
     fill: #fff;
@@ -257,9 +262,6 @@ body {
     font-size:8px;
   }
 
-  .resume src {
-    height:none;
-  }
 
   }
   
