@@ -215,6 +215,14 @@ body {
     header p {
        color: #000;
       font-weight: 200;
+
+      font-size: 14px;
+      padding-top: 5px;
+
+      max-width: 300px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 10px;
     }
 
     header nav{
@@ -233,10 +241,6 @@ body {
 
     }
     
-    header p {
-      font-size: 12px;
-      padding-top: 5px;
-    }
     
     .icon svg {
     fill: #000;
@@ -251,6 +255,10 @@ body {
 
   footer {
     font-size:8px;
+  }
+
+  .resume src {
+    height:none;
   }
 
   }
