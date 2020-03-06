@@ -18,6 +18,18 @@ body {
     padding-top: 30px;
 
   }
+
+  h3 {
+    font-size:12px
+  }
+
+  .work p {
+    font-size:18px;
+  }
+
+  h2 {
+    font-size:24px;
+  }
   
   header h1 {
     font-weight: 200;
@@ -44,11 +56,11 @@ body {
    p {
     color: #000;
 
-    font-size: 18px;
+    font-size: 12px;
     line-height:1.2;
     font-weight:400;
  
-    max-width: 520px;
+    /* max-width: 520px; */
     margin-right: auto;
     margin-left: auto;
 
@@ -77,6 +89,12 @@ body {
   .icon svg {
     fill: #fff;
   }
+
+  .icon-mobile {
+    display:none;
+  }
+
+
   
   div.work {
     text-align: center;
@@ -127,6 +145,7 @@ body {
   footer {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 20px;
   }
   
@@ -257,7 +276,7 @@ body {
       margin-right: auto;
       margin-left: auto;
       padding: 15px 0 0 0;
-      margin-bottom: 15px;
+      margin-bottom: 5px;
     }
     
     header h1 {
@@ -324,6 +343,12 @@ body {
 
   footer {
     font-size:8px;
+    justify-content: space-between;
+  }
+
+  footer div.icon-mobile {
+    display:flex;
+    justify-content:center;
   }
 
   div.resumepdf {
@@ -350,6 +375,18 @@ body {
     padding-bottom:30px;
   }
 
-
+  .icon {
+    display:none;
   }
+
+  .icon-mobile {
+    fill:#000;
+  }
+
+  .icon-mobile svg {
+    padding-right:5px;
+  }
+
   
+
+}
