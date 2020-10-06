@@ -95,6 +95,22 @@ body {
   }
 
 
+  div.testimonial_quotes {
+    padding:20px;
+  }
+
+  div.testimonial_quotes p {
+    font-size:24px;
+    padding-bottom:10px;
+  }
+
+ .testimonials a {
+    color:#df804b;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
   
   div.work {
     text-align: center;

@@ -1,0 +1,55 @@
+@import "font.css";
+@import "base.css";
+
+body {
+    font-family: Quicksand;
+    font-size: 26px;
+    background-color: #df804b;
+    line-height: 1.2;
+    
+  }
+
+  h2 {
+      color:#000000;
+      font-size:22px;
+  }
+
+  h3 {
+      font-size:18px;
+      
+  }
+
+  a {
+    color:#000000;
+    font-size:18px;
+    text-decoration:none;
+  }
+
+  .home_button a {
+      color:#ffffff;
+      padding:10px;
+      font-weight:700;
+
+  }
+
+  p {
+      padding-bottom:10px;
+  }
+
+  section.testimonials {
+      margin:100px auto 30px auto;
+      padding:50px;
+      width:600px;
+      background-color:#ffffff;
+      text-align:center;
+  }
+
+  div.first_quote {
+    text-align:center;
+  }
+
+  div.gif {
+      width:200px;
+      margin:0px auto 50px auto;
+    
+  }
