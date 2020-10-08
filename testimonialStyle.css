@@ -33,7 +33,7 @@ body {
   }
 
   p {
-      padding-bottom:10px;
+      padding-bottom:15px;
   }
 
   section.testimonials {
@@ -50,6 +50,10 @@ body {
 
   div.gif {
       width:200px;
-      margin:0px auto 50px auto;
+      margin:0px auto 0px auto;
     
+  }
+
+  div {
+      padding-bottom:50px;
   }
