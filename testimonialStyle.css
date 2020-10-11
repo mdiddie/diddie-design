@@ -57,3 +57,63 @@ body {
   div {
       padding-bottom:50px;
   }
+
+
+  @media (max-width:700px){
+
+    section.testimonials {
+        margin:30px auto 30px auto;
+        padding:10px;
+        width:375px;
+       
+    }
+
+
+  }
+
+
+  @media (max-width:400px){
+
+    .gif img {
+        width:100px;
+    }
+
+    section.testimonials {
+        margin:20px auto 20px auto;
+        padding:10px;
+        width:275px;
+       
+    }
+
+    div {
+        padding-bottom:10px;
+    }
+
+  h2 {
+    color:#000000;
+    font-size:10px;
+}
+
+h3 {
+    font-size:8px;
+    
+}
+
+a {
+  color:#000000;
+  font-size:6px;
+  text-decoration:none;
+}
+
+.gif img {
+    width:100px;
+    padding-bottom:15px;
+}
+
+p {
+    padding-bottom:5px;
+}
+  
+
+
+  }
