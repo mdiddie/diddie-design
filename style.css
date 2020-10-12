@@ -72,12 +72,18 @@ body {
     text-decoration:none;
     color: #000;
     font-weight:700;
+    
   }
+
+  a:hover {
+    cursor: cell;
+   }
   
   header nav a {
     text-decoration: none;
     color: #fff; 
     font-weight:700;
+  
   }
   
   header nav {
@@ -147,6 +153,14 @@ body {
     padding: 20px 20px 10px 20px;
     height: 540px;
     outline: none;
+  }
+
+  div.vid {
+    padding:10px;
+  }
+
+  div.vid p {
+    padding-top:5px;
   }
   
   /* Illustration Section */
