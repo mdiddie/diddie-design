@@ -135,7 +135,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
   }
   
   /* Motion Graphics Section */
