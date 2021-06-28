@@ -3,20 +3,33 @@
 @import "base.css";
 
 body {
+  margin-top:250px;
     font-family: Quicksand;
     font-size: 26px;
-    background-color: #fff;
+    background-color: #f8d990;
     line-height: 1.2;
   }
 
   
   header {
-    background-image: url("Illustration/header_colors.png");
+    position:fixed;
+    top:0;
+    left:0;
+    /* background-image: url("Illustration/header_colors.png"); */
+    background-color:#df804b;
     background-size: cover;
     width: 100%;
     margin-bottom: 45px;
     padding-top: 30px;
+    transition: background-color 1s;
 
+    box-shadow: 0 0 10px #df804b;
+
+  }
+
+
+  header.scrolled {
+    background-color:#243757;
   }
 
   h3 {
@@ -135,6 +148,7 @@ body {
   }
   
   section {
+  
     padding: 20px 30px 50px 30px;
     width: 100%;
     display: flex;
@@ -145,6 +159,7 @@ body {
   }
 
   section.motion-graphics {
+    
     padding: 20px 20px 10px 20px;
     /* height: 540px; */
     outline: none;
@@ -202,6 +217,10 @@ body {
   /*First Media Query  */
   
   @media (max-width: 1000px) {
+
+    body {
+      margin-top:200px;
+    }
 
     section.main p {
       display:none;
@@ -265,6 +284,9 @@ body {
   
   @media (max-width: 640px) {
     
+    body {
+      margin-top:180px;
+    }
     
     section {
       padding-bottom:20px;
