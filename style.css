@@ -166,6 +166,10 @@ body {
     margin-bottom:30px;
   }
 
+  section.motion-graphics p {
+    padding-top:8px;
+  }
+
   section.motion-graphics-mobile{
     display:none;
   }
