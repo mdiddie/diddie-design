@@ -16,7 +16,6 @@ body {
     
   }
 
-
   
   header {
     position:fixed;
@@ -167,6 +166,7 @@ body {
   section.worksample {
   
     padding: 20px 0px 20px 0px;
+    align-items:center;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
