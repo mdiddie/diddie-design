@@ -3,16 +3,19 @@
 @import "base.css";
 
 body {
-  margin-top:150px;
+  margin-top:28px;
     font-family: Quicksand;
     font-size: 24px;
     background-color: #fff;
     line-height: 1.2;
-    background-image: url("background.svg");
-    background-repeat:repeat;
-    height:500px;
+
+    background-image: url("background_2.svg");
+    background-size:cover;
+    background-position:center left;
+  
     
   }
+
 
   
   header {
@@ -36,6 +39,7 @@ body {
 
   header.scrolled {
     background-color:#f1c767;
+    
   }
 
   h3 {
@@ -53,7 +57,7 @@ body {
 
   h2 {
     font-size:22px;
-    color: #df804b;
+    color: #243757;
   }
   
   header h1 {
@@ -80,7 +84,7 @@ body {
 
 
    p {
-    color: #df804b;
+    color: #c46a3a;
 
     font-size: 18px;
     line-height:1.2;
@@ -96,6 +100,7 @@ body {
     text-decoration:none;
     color: #243757;
     font-weight:700;
+    font-size: 16px;
     
   }
 
@@ -147,10 +152,10 @@ body {
   }
   
   div.work {
-    text-align: center;
+    text-align: left;
     width: 960px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 80px;
   }
 
   
@@ -209,30 +214,30 @@ body {
   @media (max-width: 1000px) {
 
     body {
-      margin-top:80px;
+      margin-top:10px;
     }
 
-    section p {
+    /* section p {
       display:none;
 
-    }
+    } */
 
-    div.resume {
+    /* div.resume {
       display:none;
-    }
+    } */
 
 
-    header {
+    /* header {
       background-image:none;
       text-align: center;
       background-color: #df804b;
       width:100%;
-    }
+    } */
 
-    header nav {
+    /* header nav {
       padding: 10px;
   
-    }
+    } */
   
     div.work {
       width: 500px;
@@ -241,17 +246,17 @@ body {
       padding: 0px 10px 5px 10px;
     }
   
-     header p {
+     /* header p {
       font-size: 14px;
       max-width:660px;
-    }
+    } */
 
-    header nav a{
+    /* header nav a{
     font-size: 16px7
-    }
+    } */
 
     p {
-      font-size: 16px;
+      font-size: 24px;
     }
 
 
@@ -264,15 +269,15 @@ body {
   
   @media (max-width: 640px) {
     
-    body {
+    /* body {
       margin-top:150px;
-    }
+    } */
 
     
-    header h1 {
+    /* header h1 {
       font-weight: 200;
       font-size: 16px;
-    }
+    } */
   
   
     div.sample img {
